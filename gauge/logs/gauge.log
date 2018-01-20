@@ -1,0 +1,1282 @@
+08:21:51.044 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:8: Step implementation not found => 'I load the "Dashboard" page'
+08:21:51.044 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:9: Step implementation not found => 'Then I see the "Top Heroes" header'
+08:21:51.044 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:10: Step implementation not found => 'I click on the "Heroes" navigation button'
+08:21:51.044 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:11: Step implementation not found => 'Then I see the "My Heroes" header'
+08:21:51.044 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:16: Step implementation not found => 'I type "Superman" on the "Hero name" field'
+08:21:51.044 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:17: Step implementation not found => 'I click on the "Add" button'
+08:21:51.044 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:18: Step implementation not found => 'Then I see "Superman" on the hero's list'
+08:21:51.044 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:23: Step implementation not found => 'I type "Batman" on the "Hero name" field'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:24: Step implementation not found => 'I click on the "Add" button'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:25: Step implementation not found => 'I delete "Batman" from the hero's list'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:26: Step implementation not found => 'Then I don't see "Batman" on the hero's list'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:8: Step implementation not found => 'I load the "Dashboard" page'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:9: Step implementation not found => 'Then I see the "Top Heroes" header'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:14: Step implementation not found => 'I type "Superman" on the search field'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:15: Step implementation not found => 'Then I see no heroes on the search's result'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:20: Step implementation not found => 'I type "Narco" on the search field'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:21: Step implementation not found => 'The search's result contains "Narco"'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:26: Step implementation not found => 'I type "Na" on the search field'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:27: Step implementation not found => 'Then I see "3" heroes on the search's result'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:28: Step implementation not found => 'The search's result contains "Narco"'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:29: Step implementation not found => 'The search's result contains "Dynama"'
+08:21:51.045 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:30: Step implementation not found => 'The search's result contains "Tornado"'
+08:21:51.206 Checking updates...
+08:21:51.487 Plugin [Html Report] with pid [7330] has exited
+08:21:51.587 Specifications:	0 executed	0 passed	0 failed	2 skipped
+08:21:51.587 Scenarios:	0 executed	0 passed	0 failed	5 skipped
+08:21:51.587 
+Total time taken: 240ms
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:8: Step implementation not found => 'I load the "Dashboard" page'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:9: Step implementation not found => 'Then I see the "Top Heroes" header'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:14: Step implementation not found => 'I type "Superman" on the search field'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:15: Step implementation not found => 'Then I see no heroes on the search's result'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:20: Step implementation not found => 'I type "Narco" on the search field'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:21: Step implementation not found => 'The search's result contains "Narco"'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:26: Step implementation not found => 'I type "Na" on the search field'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:27: Step implementation not found => 'Then I see "3" heroes on the search's result'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:28: Step implementation not found => 'The search's result contains "Narco"'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:29: Step implementation not found => 'The search's result contains "Dynama"'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:30: Step implementation not found => 'The search's result contains "Tornado"'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:8: Step implementation not found => 'I load the "Dashboard" page'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:9: Step implementation not found => 'Then I see the "Top Heroes" header'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:10: Step implementation not found => 'I click on the "Heroes" navigation button'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:11: Step implementation not found => 'Then I see the "My Heroes" header'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:16: Step implementation not found => 'I type "Superman" on the "Hero name" field'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:17: Step implementation not found => 'I click on the "Add" button'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:18: Step implementation not found => 'Then I see "Superman" on the hero's list'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:23: Step implementation not found => 'I type "Batman" on the "Hero name" field'
+08:22:47.826 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:24: Step implementation not found => 'I click on the "Add" button'
+08:22:47.827 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:25: Step implementation not found => 'I delete "Batman" from the hero's list'
+08:22:47.827 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:26: Step implementation not found => 'Then I don't see "Batman" on the hero's list'
+08:22:47.940 Plugin [Html Report] with pid [7446] has exited
+08:22:48.041 Specifications:	0 executed	0 passed	0 failed	2 skipped
+08:22:48.041 Scenarios:	0 executed	0 passed	0 failed	5 skipped
+08:22:48.041 
+Total time taken: 13ms
+08:27:17.250 No specifications found in uninstall, js.
+08:27:28.002 No specifications found in uninstall, js.
+08:27:43.986 No specifications found in uninstall, js.
+09:43:50.951 Plugin js not found.
+09:44:12.701 Plugin spectacle not found.
+09:44:57.638 Plugin spectacle not found.
+09:45:07.887 Successfully uninstalled plugin html-report 2.1.1.
+09:52:13.354 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+09:52:14.100 Installing required plugins.
+09:52:14.100 Installing plugin 'screenshot'
+09:52:14.101 Gathering metadata for screenshot
+09:52:14.974 Downloading screenshot-0.0.1-linux.x86_64.zip
+09:52:14.975 Checking updates...
+09:52:18.883 Installing plugin screenshot 0.0.1
+09:52:18.888 Successfully installed plugin 'screenshot'.
+09:52:21.203 # Dashboard Heroes Search
+09:52:21.245 ## Scenario 1: Search Matching no Heroes
+09:52:21.254 * I load the "Dashboard" page
+09:52:26.854 * Then I see the "Top Heroes" header
+
+09:52:27.453 * I type "Superman" on the search field
+09:52:27.649 * Then I see no heroes on the search's result
+
+09:52:28.511 ## Scenario 2: Search Matching one Hero
+09:52:28.512 * I load the "Dashboard" page
+09:52:29.695 * Then I see the "Top Heroes" header
+
+09:52:30.171 * I type "Narco" on the search field
+09:52:30.330 * The search's result contains "Narco"
+
+09:52:31.228 ## Scenario 3: Search Matching Multiples Heroes
+09:52:31.232 * I load the "Dashboard" page
+09:52:32.382 * Then I see the "Top Heroes" header
+
+09:52:32.851 * I type "Na" on the search field
+09:52:32.967 * Then I see "3" heroes on the search's result
+09:52:33.815 * The search's result contains "Narco"
+09:52:33.880 * The search's result contains "Dynama"
+09:52:33.948 * The search's result contains "Tornado"
+
+09:52:34.026 # List of Heroes
+09:52:34.028 ## Scenario 1: Add a new hero
+09:52:34.029 * I load the "Dashboard" page
+09:52:35.144 * Then I see the "Top Heroes" header
+09:52:35.618 * I click on the "Heroes" navigation button
+09:52:35.686 * Then I see the "My Heroes" header
+
+09:52:36.283 * I type "Superman" on the "Hero name" field
+09:52:36.447 * I click on the "Add" button
+09:52:36.516 * Then I see "Superman" on the hero's list
+
+09:52:37.107 ## Scenario 2: Delete a hero
+09:52:37.108 * I load the "Dashboard" page
+09:52:38.261 * Then I see the "Top Heroes" header
+09:52:38.759 * I click on the "Heroes" navigation button
+09:52:38.864 * Then I see the "My Heroes" header
+
+09:52:39.451 * I type "Batman" on the "Hero name" field
+09:52:39.629 * I click on the "Add" button
+09:52:39.692 * I delete "Batman" from the hero's list
+09:52:40.418 * Then I don't see "Batman" on the hero's list
+
+09:52:41.102 Plugin [Html Report] with pid [4480] has exited
+09:52:41.203 Specifications:	2 executed	2 passed	0 failed	0 skipped
+09:52:41.203 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+09:52:41.203 
+Total time taken: 21.406s
+09:54:16.019 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+09:54:17.582 # Dashboard Heroes Search
+09:54:17.588 Checking updates...
+09:54:17.604 ## Scenario 1: Search Matching no Heroes
+09:54:17.612 * I load the "Dashboard" page
+09:54:30.084 * Then I see the "Top Heroes" header
+
+09:54:30.638 * I type "Superman" on the search field
+09:54:30.791 * Then I see no heroes on the search's result
+
+09:54:32.175 ## Scenario 2: Search Matching one Hero
+09:54:32.176 * I load the "Dashboard" page
+09:54:33.637 * Then I see the "Top Heroes" header
+
+09:54:34.010 * I type "Narco" on the search field
+09:54:34.159 * The search's result contains "Narco"
+
+09:54:35.058 ## Scenario 3: Search Matching Multiples Heroes
+09:54:35.061 * I load the "Dashboard" page
+09:54:36.153 * Then I see the "Top Heroes" header
+
+09:54:36.689 * I type "Na" on the search field
+09:54:36.797 * Then I see "3" heroes on the search's result
+09:54:37.701 * The search's result contains "Narco"
+09:54:37.787 * The search's result contains "Dynama"
+09:54:37.858 * The search's result contains "Tornado"
+
+09:54:37.937 # List of Heroes
+09:54:37.939 ## Scenario 1: Add a new hero
+09:54:37.940 * I load the "Dashboard" page
+09:54:39.127 * Then I see the "Top Heroes" header
+09:54:39.659 * I click on the "Heroes" navigation button
+09:54:39.782 * Then I see the "My Heroes" header
+
+09:54:40.359 * I type "Superman" on the "Hero name" field
+09:54:40.493 * I click on the "Add" button
+09:54:40.584 * Then I see "Superman" on the hero's list
+
+09:54:41.196 ## Scenario 2: Delete a hero
+09:54:41.197 * I load the "Dashboard" page
+09:54:42.455 * Then I see the "Top Heroes" header
+09:54:42.869 * I click on the "Heroes" navigation button
+09:54:42.973 * Then I see the "My Heroes" header
+
+09:54:43.558 * I type "Batman" on the "Hero name" field
+09:54:43.680 * I click on the "Add" button
+09:54:43.777 * I delete "Batman" from the hero's list
+09:54:44.451 * Then I don't see "Batman" on the hero's list
+
+09:54:45.206 Plugin [Html Report] with pid [4807] has exited
+09:54:45.307 Specifications:	2 executed	2 passed	0 failed	0 skipped
+09:54:45.307 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+09:54:45.307 
+Total time taken: 27.709s
+09:59:26.366 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+09:59:27.880 # Dashboard Heroes Search
+09:59:27.904 ## Scenario 1: Search Matching no Heroes
+09:59:27.911 * I load the "Dashboard" page
+09:59:27.947 Checking updates...
+09:59:31.123 * Then I see the "Top Heroes" header
+
+09:59:31.642 * I type "Superman" on the search field
+09:59:31.827 * Then I see no heroes on the search's result
+
+09:59:32.720 ## Scenario 2: Search Matching one Hero
+09:59:32.722 * I load the "Dashboard" page
+09:59:33.953 * Then I see the "Top Heroes" header
+
+09:59:34.472 * I type "Narco" on the search field
+09:59:35.011 * The search's result contains "Narco"
+
+09:59:35.914 ## Scenario 3: Search Matching Multiples Heroes
+09:59:35.919 * I load the "Dashboard" page
+09:59:37.110 * Then I see the "Top Heroes" header
+
+09:59:37.569 * I type "Na" on the search field
+09:59:37.680 * Then I see "3" heroes on the search's result
+09:59:38.552 * The search's result contains "Narco"
+09:59:38.644 * The search's result contains "Dynama"
+09:59:38.727 * The search's result contains "Tornado"
+
+09:59:38.793 # List of Heroes
+09:59:38.795 ## Scenario 1: Add a new hero
+09:59:38.797 * I load the "Dashboard" page
+09:59:39.971 * Then I see the "Top Heroes" header
+09:59:40.456 * I click on the "Heroes" navigation button
+09:59:40.538 * Then I see the "My Heroes" header
+
+09:59:41.113 * I type "Superman" on the "Hero name" field
+09:59:41.264 * I click on the "Add" button
+09:59:41.336 * Then I see "Superman" on the hero's list
+
+09:59:41.903 ## Scenario 2: Delete a hero
+09:59:41.904 * I load the "Dashboard" page
+09:59:43.125 * Then I see the "Top Heroes" header
+09:59:43.499 * I click on the "Heroes" navigation button
+09:59:43.573 * Then I see the "My Heroes" header
+
+09:59:44.127 * I type "Batman" on the "Hero name" field
+09:59:44.293 * I click on the "Add" button
+09:59:44.358 * I delete "Batman" from the hero's list
+09:59:45.021 * Then I don't see "Batman" on the hero's list
+
+09:59:45.685 Plugin [Html Report] with pid [7179] has exited
+09:59:45.785 Specifications:	2 executed	2 passed	0 failed	0 skipped
+09:59:45.785 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+09:59:45.785 
+Total time taken: 17.987s
+10:12:33.865 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+10:12:35.415 # Dashboard Heroes Search
+10:12:35.436 ## Scenario 1: Search Matching no Heroes
+10:12:35.443 * I load the "Dashboard" page
+10:12:35.572 Checking updates...
+10:12:41.971 * Then I see the "Top Heroes" header
+
+10:12:42.521 * I type "Superman" on the search field
+10:12:42.648 * Then I see no heroes on the search's result
+
+10:12:43.493 ## Scenario 2: Search Matching one Hero
+10:12:43.495 * I load the "Dashboard" page
+10:12:44.599 * Then I see the "Top Heroes" header
+
+10:12:45.137 * I type "Narco" on the search field
+10:12:45.273 * The search's result contains "Narco"
+
+10:12:46.151 ## Scenario 3: Search Matching Multiples Heroes
+10:12:46.154 * I load the "Dashboard" page
+10:12:47.867 * Then I see the "Top Heroes" header
+
+10:12:48.438 * I type "Na" on the search field
+10:12:48.566 * Then I see "3" heroes on the search's result
+10:12:49.443 * The search's result contains "Narco"
+10:12:49.537 * The search's result contains "Dynama"
+10:12:49.619 * The search's result contains "Tornado"
+
+10:12:49.836 # List of Heroes
+10:12:49.840 ## Scenario 1: Add a new hero
+10:12:49.841 * I load the "Dashboard" page
+10:12:51.084 * Then I see the "Top Heroes" header
+10:12:51.533 * I click on the "Heroes" navigation button
+10:12:51.641 * Then I see the "My Heroes" header
+
+10:12:52.231 * I type "Superman" on the "Hero name" field
+10:12:52.381 * I click on the "Add" button
+10:12:52.477 * Then I see "Superman" on the hero's list
+
+10:12:53.028 ## Scenario 2: Delete a hero
+10:12:53.030 * I load the "Dashboard" page
+10:12:54.219 * Then I see the "Top Heroes" header
+10:12:54.733 * I click on the "Heroes" navigation button
+10:12:54.888 * Then I see the "My Heroes" header
+
+10:12:55.454 * I type "Batman" on the "Hero name" field
+10:12:55.605 * I click on the "Add" button
+10:12:55.702 * I delete "Batman" from the hero's list
+10:12:56.319 * Then I don't see "Batman" on the hero's list
+
+10:12:56.975 Plugin [Html Report] with pid [7936] has exited
+10:12:57.076 Specifications:	2 executed	2 passed	0 failed	0 skipped
+10:12:57.076 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+10:12:57.076 
+Total time taken: 21.771s
+10:16:46.158 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+10:16:47.158 Unable to send analytics data, timed out
+10:16:48.159 Unable to send analytics data, timed out
+10:16:49.035 # Dashboard Heroes Search
+10:16:49.056 ## Scenario 1: Search Matching no Heroes
+10:16:49.063 * I load the "Dashboard" page
+10:16:49.132 Checking updates...
+10:16:55.200 * Then I see the "Top Heroes" header
+
+10:16:55.807 * I type "Superman" on the search field
+10:16:55.984 * Then I see no heroes on the search's result
+
+10:16:57.320 ## Scenario 2: Search Matching one Hero
+10:16:57.323 * I load the "Dashboard" page
+10:16:58.395 * Then I see the "Top Heroes" header
+
+10:16:58.936 * I type "Narco" on the search field
+10:16:59.083 * The search's result contains "Narco"
+
+10:16:59.958 ## Scenario 3: Search Matching Multiples Heroes
+10:16:59.962 * I load the "Dashboard" page
+10:17:01.614 * Then I see the "Top Heroes" header
+
+10:17:02.162 * I type "Na" on the search field
+10:17:02.281 * Then I see "3" heroes on the search's result
+10:17:03.168 * The search's result contains "Narco"
+10:17:03.288 * The search's result contains "Dynama"
+10:17:03.384 * The search's result contains "Tornado"
+
+10:17:03.456 # List of Heroes
+10:17:03.458 ## Scenario 1: Add a new hero
+10:17:03.459 * I load the "Dashboard" page
+10:17:04.588 * Then I see the "Top Heroes" header
+10:17:05.036 * I click on the "Heroes" navigation button
+10:17:05.147 * Then I see the "My Heroes" header
+
+10:17:05.695 * I type "Superman" on the "Hero name" field
+10:17:05.837 * I click on the "Add" button
+10:17:05.930 * Then I see "Superman" on the hero's list
+
+10:17:06.461 ## Scenario 2: Delete a hero
+10:17:06.462 * I load the "Dashboard" page
+10:17:07.953 * Then I see the "Top Heroes" header
+10:17:08.338 * I click on the "Heroes" navigation button
+10:17:08.474 * Then I see the "My Heroes" header
+
+10:17:09.080 * I type "Batman" on the "Hero name" field
+10:17:09.224 * I click on the "Add" button
+10:17:09.320 * I delete "Batman" from the hero's list
+10:17:09.979 * Then I don't see "Batman" on the hero's list
+
+10:17:10.635 Plugin [Html Report] with pid [8272] has exited
+10:17:10.736 Specifications:	2 executed	2 passed	0 failed	0 skipped
+10:17:10.736 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+10:17:10.736 
+Total time taken: 21.802s
+10:28:05.001 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+10:28:06.027 Unable to send analytics data, timed out
+10:28:07.857 Checking updates...
+10:28:08.290 # Dashboard Heroes Search
+10:28:08.314 ## Scenario 1: Search Matching no Heroes
+10:28:08.322 * I load the "Dashboard" page
+10:28:16.374 * Then I see the "Top Heroes" header
+
+10:28:16.862 * I type "Superman" on the search field
+10:28:16.998 * Then I see no heroes on the search's result
+
+10:28:18.337 ## Scenario 2: Search Matching one Hero
+10:28:18.339 * I load the "Dashboard" page
+10:28:19.383 * Then I see the "Top Heroes" header
+
+10:28:19.931 * I type "Narco" on the search field
+10:28:20.068 * The search's result contains "Narco"
+
+10:28:20.949 ## Scenario 3: Search Matching Multiples Heroes
+10:28:20.953 * I load the "Dashboard" page
+10:28:22.206 * Then I see the "Top Heroes" header
+
+10:28:22.755 * I type "Na" on the search field
+10:28:22.894 * Then I see "3" heroes on the search's result
+10:28:23.763 * The search's result contains "Narco"
+10:28:23.860 * The search's result contains "Dynama"
+10:28:23.936 * The search's result contains "Tornado"
+
+10:28:24.017 # List of Heroes
+10:28:24.021 ## Scenario 1: Add a new hero
+10:28:24.022 * I load the "Dashboard" page
+10:28:25.222 * Then I see the "Top Heroes" header
+10:28:25.687 * I click on the "Heroes" navigation button
+10:28:25.811 * Then I see the "My Heroes" header
+
+10:28:26.382 * I type "Superman" on the "Hero name" field
+10:28:26.511 * I click on the "Add" button
+10:28:26.602 * Then I see "Superman" on the hero's list
+
+10:28:27.152 ## Scenario 2: Delete a hero
+10:28:27.154 * I load the "Dashboard" page
+10:28:28.725 * Then I see the "Top Heroes" header
+10:28:29.092 * I click on the "Heroes" navigation button
+10:28:29.226 * Then I see the "My Heroes" header
+
+10:28:29.820 * I type "Batman" on the "Hero name" field
+10:28:29.945 * I click on the "Add" button
+10:28:30.039 * I delete "Batman" from the hero's list
+10:28:30.641 * Then I don't see "Batman" on the hero's list
+
+10:28:31.288 Plugin [Html Report] with pid [8979] has exited
+10:28:31.389 Specifications:	2 executed	2 passed	0 failed	0 skipped
+10:28:31.389 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+10:28:31.389 
+Total time taken: 23.297s
+10:30:48.404 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+10:30:49.922 # Dashboard Heroes Search
+10:30:49.935 ## Scenario 1: Search Matching no Heroes
+10:30:49.940 * I load the "Dashboard" page
+10:30:49.954 Failed Step: I load the "Dashboard" page
+10:30:49.954 Error Message: Connection closed [127.0.0.1:52756] cause: EOF
+10:30:49.954 Specification: specs/dashboard.spec:8
+10:30:49.954 Stacktrace: 
+10:30:49.954 Error Message: write tcp 127.0.0.1:34751->127.0.0.1:52756: use of closed network connection
+10:30:49.954 Stacktrace: 
+10:30:49.954 Error Message: write tcp 127.0.0.1:34751->127.0.0.1:52756: use of closed network connection
+10:30:49.954 Stacktrace: 
+10:30:49.954 ## Scenario 2: Search Matching one Hero
+10:30:49.955 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:34751->127.0.0.1:52756: use of closed network connection
+10:30:49.955 ## Scenario 3: Search Matching Multiples Heroes
+10:30:49.957 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:34751->127.0.0.1:52756: use of closed network connection
+10:30:49.957 Error Message: write tcp 127.0.0.1:34751->127.0.0.1:52756: use of closed network connection
+10:30:49.957 Stacktrace: 
+10:30:49.957 # List of Heroes
+10:30:49.957 Failed to initialize spec datastore. Error: write tcp 127.0.0.1:34751->127.0.0.1:52756: use of closed network connection
+10:30:49.958 Error Message: write tcp 127.0.0.1:34751->127.0.0.1:52756: use of closed network connection
+10:30:49.958 Stacktrace: 
+10:30:49.997 Checking updates...
+10:30:50.058 Plugin [Html Report] with pid [9172] has exited
+10:30:50.058 Specifications:	1 executed	0 passed	1 failed	1 skipped
+10:30:50.058 Scenarios:	1 executed	0 passed	1 failed	4 skipped
+10:30:50.058 
+Total time taken: 279ms
+10:47:47.435 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+10:47:48.974 # Dashboard Heroes Search
+10:47:48.981 ## Scenario 1: Search Matching no Heroes
+10:47:48.987 * I load the "Dashboard" page
+10:47:49.003 Failed Step: I load the "Dashboard" page
+10:47:49.003 Error Message: Connection closed [127.0.0.1:34038] cause: EOF
+10:47:49.003 Specification: specs/dashboard.spec:8
+10:47:49.003 Stacktrace: 
+10:47:49.003 Error Message: write tcp 127.0.0.1:43721->127.0.0.1:34038: use of closed network connection
+10:47:49.003 Stacktrace: 
+10:47:49.003 Error Message: write tcp 127.0.0.1:43721->127.0.0.1:34038: use of closed network connection
+10:47:49.003 Stacktrace: 
+10:47:49.003 ## Scenario 2: Search Matching one Hero
+10:47:49.003 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:43721->127.0.0.1:34038: use of closed network connection
+10:47:49.003 ## Scenario 3: Search Matching Multiples Heroes
+10:47:49.003 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:43721->127.0.0.1:34038: use of closed network connection
+10:47:49.004 Error Message: write tcp 127.0.0.1:43721->127.0.0.1:34038: use of closed network connection
+10:47:49.004 Stacktrace: 
+10:47:49.004 # List of Heroes
+10:47:49.004 Failed to initialize spec datastore. Error: write tcp 127.0.0.1:43721->127.0.0.1:34038: use of closed network connection
+10:47:49.004 Error Message: write tcp 127.0.0.1:43721->127.0.0.1:34038: use of closed network connection
+10:47:49.004 Stacktrace: 
+10:47:49.045 Checking updates...
+10:47:49.105 Plugin [Html Report] with pid [9871] has exited
+10:47:49.105 Specifications:	1 executed	0 passed	1 failed	1 skipped
+10:47:49.105 Scenarios:	1 executed	0 passed	1 failed	4 skipped
+10:47:49.105 
+Total time taken: 320ms
+10:54:02.219 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+10:54:04.846 Checking updates...
+10:54:11.681 # Dashboard Heroes Search
+10:54:11.690 ## Scenario 1: Search Matching no Heroes
+10:54:11.696 * I load the "Dashboard" page
+10:54:11.706 Failed Step: I load the "Dashboard" page
+10:54:11.706 Error Message: Connection closed [127.0.0.1:37898] cause: EOF
+10:54:11.706 Specification: specs/dashboard.spec:8
+10:54:11.706 Stacktrace: 
+10:54:11.706 Error Message: write tcp 127.0.0.1:38574->127.0.0.1:37898: use of closed network connection
+10:54:11.706 Stacktrace: 
+10:54:11.707 Error Message: write tcp 127.0.0.1:38574->127.0.0.1:37898: use of closed network connection
+10:54:11.707 Stacktrace: 
+10:54:11.707 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:38574->127.0.0.1:37898: use of closed network connection
+10:54:11.707 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:38574->127.0.0.1:37898: use of closed network connection
+10:54:11.707 Error Message: write tcp 127.0.0.1:38574->127.0.0.1:37898: use of closed network connection
+10:54:11.707 Stacktrace: 
+10:54:11.707 # List of Heroes
+10:54:11.707 Failed to initialize spec datastore. Error: write tcp 127.0.0.1:38574->127.0.0.1:37898: use of closed network connection
+10:54:11.708 Error Message: write tcp 127.0.0.1:38574->127.0.0.1:37898: use of closed network connection
+10:54:11.708 Stacktrace: 
+10:54:11.808 Plugin [Html Report] with pid [10534] has exited
+10:54:11.808 Specifications:	1 executed	0 passed	1 failed	1 skipped
+10:54:11.808 Scenarios:	1 executed	0 passed	1 failed	4 skipped
+10:54:11.809 
+Total time taken: 1.497s
+10:54:56.131 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+10:54:57.590 Checking updates...
+10:54:57.632 # Dashboard Heroes Search
+10:54:57.641 ## Scenario 1: Search Matching no Heroes
+10:54:57.646 * I load the "Dashboard" page
+10:54:57.657 Failed Step: I load the "Dashboard" page
+10:54:57.657 Error Message: Connection closed [127.0.0.1:44026] cause: EOF
+10:54:57.657 Specification: specs/dashboard.spec:8
+10:54:57.657 Stacktrace: 
+10:54:57.657 Error Message: write tcp 127.0.0.1:35705->127.0.0.1:44026: use of closed network connection
+10:54:57.657 Stacktrace: 
+10:54:57.657 Error Message: write tcp 127.0.0.1:35705->127.0.0.1:44026: use of closed network connection
+10:54:57.657 Stacktrace: 
+10:54:57.658 ## Scenario 2: Search Matching one Hero
+10:54:57.658 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:35705->127.0.0.1:44026: use of closed network connection
+10:54:57.658 ## Scenario 3: Search Matching Multiples Heroes
+10:54:57.658 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:35705->127.0.0.1:44026: use of closed network connection
+10:54:57.658 Error Message: write tcp 127.0.0.1:35705->127.0.0.1:44026: use of closed network connection
+10:54:57.658 Stacktrace: 
+10:54:57.658 Failed to initialize spec datastore. Error: write tcp 127.0.0.1:35705->127.0.0.1:44026: use of closed network connection
+10:54:57.658 Error Message: write tcp 127.0.0.1:35705->127.0.0.1:44026: use of closed network connection
+10:54:57.658 Stacktrace: 
+10:54:57.759 Plugin [Html Report] with pid [10655] has exited
+10:54:57.759 Specifications:	1 executed	0 passed	1 failed	1 skipped
+10:54:57.759 Scenarios:	1 executed	0 passed	1 failed	4 skipped
+10:54:57.759 
+Total time taken: 302ms
+10:55:12.669 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+10:55:14.145 # Dashboard Heroes Search
+10:55:14.152 ## Scenario 1: Search Matching no Heroes
+10:55:14.156 * I load the "Dashboard" page
+10:55:14.166 Failed Step: I load the "Dashboard" page
+10:55:14.166 Error Message: Connection closed [127.0.0.1:35944] cause: EOF
+10:55:14.166 Specification: specs/dashboard.spec:8
+10:55:14.166 Stacktrace: 
+10:55:14.166 Error Message: write tcp 127.0.0.1:43694->127.0.0.1:35944: use of closed network connection
+10:55:14.166 Stacktrace: 
+10:55:14.167 Error Message: write tcp 127.0.0.1:43694->127.0.0.1:35944: use of closed network connection
+10:55:14.167 Stacktrace: 
+10:55:14.167 ## Scenario 2: Search Matching one Hero
+10:55:14.167 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:43694->127.0.0.1:35944: use of closed network connection
+10:55:14.167 ## Scenario 3: Search Matching Multiples Heroes
+10:55:14.167 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:43694->127.0.0.1:35944: use of closed network connection
+10:55:14.167 Error Message: write tcp 127.0.0.1:43694->127.0.0.1:35944: use of closed network connection
+10:55:14.167 Stacktrace: 
+10:55:14.167 # List of Heroes
+10:55:14.168 Failed to initialize spec datastore. Error: write tcp 127.0.0.1:43694->127.0.0.1:35944: use of closed network connection
+10:55:14.168 Error Message: write tcp 127.0.0.1:43694->127.0.0.1:35944: use of closed network connection
+10:55:14.168 Stacktrace: 
+10:55:14.229 Checking updates...
+10:55:14.268 Plugin [Html Report] with pid [10753] has exited
+10:55:14.269 Specifications:	1 executed	0 passed	1 failed	1 skipped
+10:55:14.269 Scenarios:	1 executed	0 passed	1 failed	4 skipped
+10:55:14.269 
+Total time taken: 297ms
+10:56:41.526 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+10:56:43.029 Checking updates...
+10:56:43.401 # Dashboard Heroes Search
+10:56:43.434 ## Scenario 1: Search Matching no Heroes
+10:56:43.441 * I load the "Dashboard" page
+10:56:43.786 Failed Step: I load the "Dashboard" page
+10:56:43.786 Error Message: Connection closed [127.0.0.1:53088] cause: EOF
+10:56:43.786 Specification: specs/dashboard.spec:8
+10:56:43.786 Stacktrace: 
+10:56:43.786 Error Message: write tcp 127.0.0.1:46139->127.0.0.1:53088: use of closed network connection
+10:56:43.786 Stacktrace: 
+10:56:43.786 Error Message: write tcp 127.0.0.1:46139->127.0.0.1:53088: use of closed network connection
+10:56:43.786 Stacktrace: 
+10:56:43.786 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:46139->127.0.0.1:53088: use of closed network connection
+10:56:43.786 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:46139->127.0.0.1:53088: use of closed network connection
+10:56:43.786 Error Message: write tcp 127.0.0.1:46139->127.0.0.1:53088: use of closed network connection
+10:56:43.787 Stacktrace: 
+10:56:43.787 Failed to initialize spec datastore. Error: write tcp 127.0.0.1:46139->127.0.0.1:53088: use of closed network connection
+10:56:43.787 Error Message: write tcp 127.0.0.1:46139->127.0.0.1:53088: use of closed network connection
+10:56:43.787 Stacktrace: 
+10:56:43.888 Plugin [Html Report] with pid [10887] has exited
+10:56:43.888 Specifications:	1 executed	0 passed	1 failed	1 skipped
+10:56:43.888 Scenarios:	1 executed	0 passed	1 failed	4 skipped
+10:56:43.888 
+Total time taken: 1.012s
+11:00:07.794 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:00:09.381 # Dashboard Heroes Search
+11:00:09.398 Checking updates...
+11:00:09.407 ## Scenario 1: Search Matching no Heroes
+11:00:09.428 Failed to initialize scenario datastore. Error: Connection closed [127.0.0.1:41260] cause: read tcp 127.0.0.1:40291->127.0.0.1:41260: read: connection reset by peer
+11:00:09.428 ## Scenario 2: Search Matching one Hero
+11:00:09.428 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:40291->127.0.0.1:41260: use of closed network connection
+11:00:09.428 ## Scenario 3: Search Matching Multiples Heroes
+11:00:09.428 Failed to initialize scenario datastore. Error: write tcp 127.0.0.1:40291->127.0.0.1:41260: use of closed network connection
+11:00:09.428 Failed to initialize spec datastore. Error: write tcp 127.0.0.1:40291->127.0.0.1:41260: use of closed network connection
+11:00:09.428 Error Message: write tcp 127.0.0.1:40291->127.0.0.1:41260: use of closed network connection
+11:00:09.428 Stacktrace: 
+11:00:12.934 Plugin [Html Report] with pid [11125] has exited
+11:00:12.935 Specifications:	1 executed	0 passed	1 failed	1 skipped
+11:00:12.935 Scenarios:	0 executed	0 passed	0 failed	5 skipped
+11:00:12.935 
+Total time taken: 354ms
+11:01:19.997 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:01:21.503 Checking updates...
+11:01:21.604 # Dashboard Heroes Search
+11:01:21.624 ## Scenario 1: Search Matching no Heroes
+11:01:21.631 * I load the "Dashboard" page
+11:01:33.157 * Then I see the "Top Heroes" header
+
+11:01:33.434 * I type "Superman" on the search field
+11:01:33.595 * Then I see no heroes on the search's result
+
+11:01:34.475 ## Scenario 2: Search Matching one Hero
+11:01:34.477 * I load the "Dashboard" page
+11:01:35.754 * Then I see the "Top Heroes" header
+
+11:01:36.233 * I type "Narco" on the search field
+11:01:36.371 * The search's result contains "Narco"
+
+11:01:37.251 ## Scenario 3: Search Matching Multiples Heroes
+11:01:37.253 * I load the "Dashboard" page
+11:01:38.431 * Then I see the "Top Heroes" header
+
+11:01:38.877 * I type "Na" on the search field
+11:01:38.990 * Then I see "3" heroes on the search's result
+11:01:39.862 * The search's result contains "Narco"
+11:01:39.942 * The search's result contains "Dynama"
+11:01:40.011 * The search's result contains "Tornado"
+
+11:01:40.087 # List of Heroes
+11:01:40.093 ## Scenario 1: Add a new hero
+11:01:40.095 * I load the "Dashboard" page
+11:01:41.283 * Then I see the "Top Heroes" header
+11:01:41.787 * I click on the "Heroes" navigation button
+11:01:41.919 * Then I see the "My Heroes" header
+
+11:01:42.506 * I type "Superman" on the "Hero name" field
+11:01:42.675 * I click on the "Add" button
+11:01:42.745 * Then I see "Superman" on the hero's list
+
+11:01:43.333 ## Scenario 2: Delete a hero
+11:01:43.335 * I load the "Dashboard" page
+11:01:44.491 * Then I see the "Top Heroes" header
+11:01:44.973 * I click on the "Heroes" navigation button
+11:01:45.061 * Then I see the "My Heroes" header
+
+11:01:45.636 * I type "Batman" on the "Hero name" field
+11:01:45.847 * I click on the "Add" button
+11:01:45.916 * I delete "Batman" from the hero's list
+11:01:46.567 * Then I don't see "Batman" on the hero's list
+
+11:01:47.264 Plugin [Html Report] with pid [11294] has exited
+11:01:47.364 Specifications:	2 executed	2 passed	0 failed	0 skipped
+11:01:47.364 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+11:01:47.364 
+Total time taken: 25.888s
+11:06:19.288 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:06:20.851 # Dashboard Heroes Search
+11:06:20.880 ## Scenario 1: Search Matching no Heroes
+11:06:20.882 Checking updates...
+11:06:20.887 * I load the "Dashboard" page
+11:06:24.312 * Then I see the "Top Heroes" header
+
+11:06:24.587 * I type "Superman" on the search field
+11:06:24.757 * Then I see no heroes on the search's result
+
+11:06:25.614 ## Scenario 2: Search Matching one Hero
+11:06:25.615 * I load the "Dashboard" page
+11:06:26.875 * Then I see the "Top Heroes" header
+
+11:06:27.338 * I type "Narco" on the search field
+11:06:27.474 * The search's result contains "Narco"
+
+11:06:28.332 ## Scenario 3: Search Matching Multiples Heroes
+11:06:28.335 * I load the "Dashboard" page
+11:06:29.526 * Then I see the "Top Heroes" header
+
+11:06:30.001 * I type "Na" on the search field
+11:06:30.131 * Then I see "3" heroes on the search's result
+11:06:30.983 * The search's result contains "Narco"
+11:06:31.054 * The search's result contains "Dynama"
+11:06:31.126 * The search's result contains "Tornado"
+
+11:06:31.196 # List of Heroes
+11:06:31.199 ## Scenario 1: Add a new hero
+11:06:31.200 * I load the "Dashboard" page
+11:06:32.390 * Then I see the "Top Heroes" header
+11:06:32.907 * I click on the "Heroes" navigation button
+11:06:33.001 * Then I see the "My Heroes" header
+
+11:06:33.564 * I type "Superman" on the "Hero name" field
+11:06:33.709 * I click on the "Add" button
+11:06:33.770 * Then I see "Superman" on the hero's list
+
+11:06:34.341 ## Scenario 2: Delete a hero
+11:06:34.343 * I load the "Dashboard" page
+11:06:35.515 * Then I see the "Top Heroes" header
+11:06:35.988 * I click on the "Heroes" navigation button
+11:06:36.079 * Then I see the "My Heroes" header
+
+11:06:36.633 * I type "Batman" on the "Hero name" field
+11:06:36.773 * I click on the "Add" button
+11:06:36.834 * I delete "Batman" from the hero's list
+11:06:37.470 * Then I don't see "Batman" on the hero's list
+
+11:06:38.138 Plugin [Html Report] with pid [11730] has exited
+11:06:38.239 Specifications:	2 executed	2 passed	0 failed	0 skipped
+11:06:38.239 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+11:06:38.239 
+Total time taken: 17.511s
+11:12:10.420 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:12:20.115 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:21:51.050 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:22:20.898 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:22:21.458 Successfully uninstalled plugin js 2.1.0.
+11:23:01.417 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:23:01.928 Plugin js 2.0.1 not found.
+11:23:28.721 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:23:29.221 Gathering metadata for js
+11:23:30.307 Downloading gauge-js-2.0.1.zip
+11:23:35.156 Installing plugin js 2.0.1
+11:23:35.236 Successfully installed plugin 'js'.
+11:23:49.064 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:23:50.353 # Dashboard Heroes Search
+11:23:50.375 ## Scenario 1: Search Matching no Heroes
+11:23:50.382 * I load the "Dashboard" page
+11:23:50.571 Checking updates...
+11:23:54.697 * Then I see the "Top Heroes" header
+
+11:23:55.112 * I type "Superman" on the search field
+11:23:55.317 * Then I see no heroes on the search's result
+
+11:23:56.200 ## Scenario 2: Search Matching one Hero
+11:23:56.203 * I load the "Dashboard" page
+11:23:57.402 * Then I see the "Top Heroes" header
+
+11:23:57.862 * I type "Narco" on the search field
+11:23:57.973 * The search's result contains "Narco"
+
+11:23:58.854 ## Scenario 3: Search Matching Multiples Heroes
+11:23:58.858 * I load the "Dashboard" page
+11:23:59.936 * Then I see the "Top Heroes" header
+
+11:24:00.527 * I type "Na" on the search field
+11:24:00.665 * Then I see "3" heroes on the search's result
+11:24:01.529 * The search's result contains "Narco"
+11:24:01.602 * The search's result contains "Dynama"
+11:24:01.671 * The search's result contains "Tornado"
+
+11:24:01.737 # List of Heroes
+11:24:01.738 ## Scenario 1: Add a new hero
+11:24:01.739 * I load the "Dashboard" page
+11:24:03.010 * Then I see the "Top Heroes" header
+11:24:03.497 * I click on the "Heroes" navigation button
+11:24:03.606 * Then I see the "My Heroes" header
+
+11:24:04.203 * I type "Superman" on the "Hero name" field
+11:24:04.390 * I click on the "Add" button
+11:24:04.457 * Then I see "Superman" on the hero's list
+
+11:24:05.014 ## Scenario 2: Delete a hero
+11:24:05.015 * I load the "Dashboard" page
+11:24:06.152 * Then I see the "Top Heroes" header
+11:24:06.637 * I click on the "Heroes" navigation button
+11:24:06.731 * Then I see the "My Heroes" header
+
+11:24:07.304 * I type "Batman" on the "Hero name" field
+11:24:07.460 * I click on the "Add" button
+11:24:07.527 * I delete "Batman" from the hero's list
+11:24:08.162 * Then I don't see "Batman" on the hero's list
+
+11:24:08.857 Plugin [Html Report] with pid [12828] has exited
+11:24:08.958 Specifications:	2 executed	2 passed	0 failed	0 skipped
+11:24:08.958 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+11:24:08.958 
+Total time taken: 18.421s
+11:24:08.958 Updates are available. Run `gauge update -c` for more info.
+11:24:24.555 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:24:25.099 Successfully uninstalled plugin js 2.0.1.
+11:24:33.575 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:24:34.073 Gathering metadata for js
+11:24:35.001 Downloading gauge-js-2.0.2.zip
+11:24:39.943 Installing plugin js 2.0.2
+11:24:39.995 Successfully installed plugin 'js'.
+11:25:09.538 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:25:10.828 # Dashboard Heroes Search
+11:25:10.840 ## Scenario 1: Search Matching no Heroes
+11:25:10.850 * I load the "Dashboard" page
+11:25:11.073 Checking updates...
+11:25:14.340 * Then I see the "Top Heroes" header
+
+11:25:14.758 * I type "Superman" on the search field
+11:25:14.931 * Then I see no heroes on the search's result
+
+11:25:15.838 ## Scenario 2: Search Matching one Hero
+11:25:15.843 * I load the "Dashboard" page
+11:25:17.096 * Then I see the "Top Heroes" header
+
+11:25:17.600 * I type "Narco" on the search field
+11:25:17.732 * The search's result contains "Narco"
+
+11:25:18.623 ## Scenario 3: Search Matching Multiples Heroes
+11:25:18.627 * I load the "Dashboard" page
+11:25:19.765 * Then I see the "Top Heroes" header
+
+11:25:20.302 * I type "Na" on the search field
+11:25:20.486 * Then I see "3" heroes on the search's result
+11:25:21.327 * The search's result contains "Narco"
+11:25:21.379 * The search's result contains "Dynama"
+11:25:21.448 * The search's result contains "Tornado"
+
+11:25:21.515 # List of Heroes
+11:25:21.518 ## Scenario 1: Add a new hero
+11:25:21.520 * I load the "Dashboard" page
+11:25:22.729 * Then I see the "Top Heroes" header
+11:25:23.297 * I click on the "Heroes" navigation button
+11:25:23.411 * Then I see the "My Heroes" header
+
+11:25:23.984 * I type "Superman" on the "Hero name" field
+11:25:24.130 * I click on the "Add" button
+11:25:24.191 * Then I see "Superman" on the hero's list
+
+11:25:24.792 ## Scenario 2: Delete a hero
+11:25:24.793 * I load the "Dashboard" page
+11:25:26.016 * Then I see the "Top Heroes" header
+11:25:26.522 * I click on the "Heroes" navigation button
+11:25:26.609 * Then I see the "My Heroes" header
+
+11:25:27.176 * I type "Batman" on the "Hero name" field
+11:25:27.338 * I click on the "Add" button
+11:25:27.430 * I delete "Batman" from the hero's list
+11:25:28.054 * Then I don't see "Batman" on the hero's list
+
+11:25:28.707 Plugin [Html Report] with pid [13171] has exited
+11:25:28.808 Specifications:	2 executed	2 passed	0 failed	0 skipped
+11:25:28.808 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+11:25:28.808 
+Total time taken: 17.801s
+11:25:28.808 Updates are available. Run `gauge update -c` for more info.
+11:26:00.010 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:26:00.530 Successfully uninstalled plugin js 2.0.2.
+11:26:03.819 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:26:04.338 Gathering metadata for js
+11:26:05.681 Downloading gauge-js-2.0.3.zip
+11:26:09.711 Installing plugin js 2.0.3
+11:26:09.757 Successfully installed plugin 'js'.
+11:26:22.660 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:8 Step implementation not found => 'I load the "Dashboard" page'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:9 Step implementation not found => 'Then I see the "Top Heroes" header'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:14 Step implementation not found => 'I type "Superman" on the search field'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:15 Step implementation not found => 'Then I see no heroes on the search's result'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:20 Step implementation not found => 'I type "Narco" on the search field'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:21 Step implementation not found => 'The search's result contains "Narco"'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:26 Step implementation not found => 'I type "Na" on the search field'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:27 Step implementation not found => 'Then I see "3" heroes on the search's result'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:28 Step implementation not found => 'The search's result contains "Narco"'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:29 Step implementation not found => 'The search's result contains "Dynama"'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:30 Step implementation not found => 'The search's result contains "Tornado"'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:8 Step implementation not found => 'I load the "Dashboard" page'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:9 Step implementation not found => 'Then I see the "Top Heroes" header'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:10 Step implementation not found => 'I click on the "Heroes" navigation button'
+11:26:23.665 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:11 Step implementation not found => 'Then I see the "My Heroes" header'
+11:26:23.666 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:16 Step implementation not found => 'I type "Superman" on the "Hero name" field'
+11:26:23.666 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:17 Step implementation not found => 'I click on the "Add" button'
+11:26:23.666 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:18 Step implementation not found => 'Then I see "Superman" on the hero's list'
+11:26:23.666 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:23 Step implementation not found => 'I type "Batman" on the "Hero name" field'
+11:26:23.666 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:24 Step implementation not found => 'I click on the "Add" button'
+11:26:23.666 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:25 Step implementation not found => 'I delete "Batman" from the hero's list'
+11:26:23.666 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:26 Step implementation not found => 'Then I don't see "Batman" on the hero's list'
+11:26:24.033 Plugin [Html Report] with pid [13519] has exited
+11:26:24.134 Specifications:	0 executed	0 passed	0 failed	2 skipped
+11:26:24.134 Scenarios:	0 executed	0 passed	0 failed	5 skipped
+11:26:24.134 
+Total time taken: 267ms
+11:27:03.243 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:27:03.755 Gathering metadata for js
+11:27:04.610 Plugin js 2.0.3 is already installed.
+11:27:12.230 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:27:13.329 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:8 Step implementation not found => 'I load the "Dashboard" page'
+11:27:13.329 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:9 Step implementation not found => 'Then I see the "Top Heroes" header'
+11:27:13.329 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:14 Step implementation not found => 'I type "Superman" on the search field'
+11:27:13.330 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:15 Step implementation not found => 'Then I see no heroes on the search's result'
+11:27:13.330 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:20 Step implementation not found => 'I type "Narco" on the search field'
+11:27:13.330 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:21 Step implementation not found => 'The search's result contains "Narco"'
+11:27:13.330 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:26 Step implementation not found => 'I type "Na" on the search field'
+11:27:13.330 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:27 Step implementation not found => 'Then I see "3" heroes on the search's result'
+11:27:13.330 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:28 Step implementation not found => 'The search's result contains "Narco"'
+11:27:13.331 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:29 Step implementation not found => 'The search's result contains "Dynama"'
+11:27:13.331 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:30 Step implementation not found => 'The search's result contains "Tornado"'
+11:27:13.332 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:8 Step implementation not found => 'I load the "Dashboard" page'
+11:27:13.333 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:9 Step implementation not found => 'Then I see the "Top Heroes" header'
+11:27:13.333 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:10 Step implementation not found => 'I click on the "Heroes" navigation button'
+11:27:13.333 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:11 Step implementation not found => 'Then I see the "My Heroes" header'
+11:27:13.333 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:16 Step implementation not found => 'I type "Superman" on the "Hero name" field'
+11:27:13.334 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:17 Step implementation not found => 'I click on the "Add" button'
+11:27:13.334 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:18 Step implementation not found => 'Then I see "Superman" on the hero's list'
+11:27:13.334 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:23 Step implementation not found => 'I type "Batman" on the "Hero name" field'
+11:27:13.334 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:24 Step implementation not found => 'I click on the "Add" button'
+11:27:13.334 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:25 Step implementation not found => 'I delete "Batman" from the hero's list'
+11:27:13.334 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:26 Step implementation not found => 'Then I don't see "Batman" on the hero's list'
+11:27:13.709 Plugin [Html Report] with pid [13723] has exited
+11:27:13.752 Checking updates...
+11:27:13.810 Specifications:	0 executed	0 passed	0 failed	2 skipped
+11:27:13.810 Scenarios:	0 executed	0 passed	0 failed	5 skipped
+11:27:13.810 
+Total time taken: 272ms
+11:29:30.817 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:29:31.340 Gathering metadata for js
+11:29:32.303 Downloading gauge-js-2.0.2.zip
+11:29:37.497 Installing plugin js 2.0.2
+11:29:37.619 Successfully installed plugin 'js'.
+11:29:43.492 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:29:53.304 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:29:53.843 Successfully uninstalled plugin js 2.0.2.
+11:29:53.868 Successfully uninstalled plugin js 2.0.3.
+11:30:01.692 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:30:02.236 Gathering metadata for js
+11:30:03.106 Downloading gauge-js-2.0.2.zip
+11:30:08.083 Installing plugin js 2.0.2
+11:30:08.130 Successfully installed plugin 'js'.
+11:30:41.501 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:30:51.173 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:30:52.475 # Dashboard Heroes Search
+11:30:52.488 ## Scenario 1: Search Matching no Heroes
+11:30:52.496 * I load the "Dashboard" page
+11:30:52.703 Checking updates...
+11:30:55.705 * Then I see the "Top Heroes" header
+
+11:30:56.115 * I type "Superman" on the search field
+11:30:56.272 * Then I see no heroes on the search's result
+
+11:30:57.162 ## Scenario 2: Search Matching one Hero
+11:30:57.164 * I load the "Dashboard" page
+11:30:58.329 * Then I see the "Top Heroes" header
+
+11:30:58.926 * I type "Narco" on the search field
+11:30:59.066 * The search's result contains "Narco"
+
+11:30:59.949 ## Scenario 3: Search Matching Multiples Heroes
+11:30:59.952 * I load the "Dashboard" page
+11:31:01.092 * Then I see the "Top Heroes" header
+
+11:31:01.579 * I type "Na" on the search field
+11:31:01.726 * Then I see "3" heroes on the search's result
+11:31:02.589 * The search's result contains "Narco"
+11:31:02.669 * The search's result contains "Dynama"
+11:31:02.738 * The search's result contains "Tornado"
+
+11:31:02.805 # List of Heroes
+11:31:02.808 ## Scenario 1: Add a new hero
+11:31:02.809 * I load the "Dashboard" page
+11:31:03.971 * Then I see the "Top Heroes" header
+11:31:04.352 * I click on the "Heroes" navigation button
+11:31:04.432 * Then I see the "My Heroes" header
+
+11:31:05.006 * I type "Superman" on the "Hero name" field
+11:31:05.157 * I click on the "Add" button
+11:31:05.218 * Then I see "Superman" on the hero's list
+
+11:31:05.801 ## Scenario 2: Delete a hero
+11:31:05.802 * I load the "Dashboard" page
+11:31:06.978 * Then I see the "Top Heroes" header
+11:31:07.478 * I click on the "Heroes" navigation button
+11:31:07.584 * Then I see the "My Heroes" header
+
+11:31:08.166 * I type "Batman" on the "Hero name" field
+11:31:08.394 * I click on the "Add" button
+11:31:08.461 * I delete "Batman" from the hero's list
+11:31:09.115 * Then I don't see "Batman" on the hero's list
+
+11:31:09.796 Plugin [Html Report] with pid [14155] has exited
+11:31:09.896 Specifications:	2 executed	2 passed	0 failed	0 skipped
+11:31:09.897 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+11:31:09.897 
+Total time taken: 17.244s
+11:31:09.897 Updates are available. Run `gauge update -c` for more info.
+11:31:26.755 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:31:28.062 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:8 Step implementation not found => 'I load the "Dashboard" page'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:9 Step implementation not found => 'Then I see the "Top Heroes" header'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:10 Step implementation not found => 'I click on the "Heroes" navigation button'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:11 Step implementation not found => 'Then I see the "My Heroes" header'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:16 Step implementation not found => 'I type "Superman" on the "Hero name" field'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:17 Step implementation not found => 'I click on the "Add" button'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:18 Step implementation not found => 'Then I see "Superman" on the hero's list'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:23 Step implementation not found => 'I type "Batman" on the "Hero name" field'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:24 Step implementation not found => 'I click on the "Add" button'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:25 Step implementation not found => 'I delete "Batman" from the hero's list'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/heroes.spec:26 Step implementation not found => 'Then I don't see "Batman" on the hero's list'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:8 Step implementation not found => 'I load the "Dashboard" page'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:9 Step implementation not found => 'Then I see the "Top Heroes" header'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:14 Step implementation not found => 'I type "Superman" on the search field'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:15 Step implementation not found => 'Then I see no heroes on the search's result'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:20 Step implementation not found => 'I type "Narco" on the search field'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:21 Step implementation not found => 'The search's result contains "Narco"'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:26 Step implementation not found => 'I type "Na" on the search field'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:27 Step implementation not found => 'Then I see "3" heroes on the search's result'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:28 Step implementation not found => 'The search's result contains "Narco"'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:29 Step implementation not found => 'The search's result contains "Dynama"'
+11:31:28.063 [ValidationError] /home/fernando/Development/projects/serpro/heroes-gauge-e2e-master/gauge/specs/dashboard.spec:30 Step implementation not found => 'The search's result contains "Tornado"'
+11:31:28.181 Plugin [Html Report] with pid [14344] has exited
+11:31:28.258 Checking updates...
+11:31:28.282 Specifications:	0 executed	0 passed	0 failed	2 skipped
+11:31:28.282 Scenarios:	0 executed	0 passed	0 failed	5 skipped
+11:31:28.282 
+Total time taken: 16ms
+11:32:22.523 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:32:23.928 # Dashboard Heroes Search
+11:32:23.938 ## Scenario 1: Search Matching no Heroes
+11:32:23.946 * I load the "Dashboard" page
+11:32:24.070 Checking updates...
+11:32:27.270 * Then I see the "Top Heroes" header
+
+11:32:27.674 * I type "Superman" on the search field
+11:32:27.837 * Then I see no heroes on the search's result
+
+11:32:28.724 ## Scenario 2: Search Matching one Hero
+11:32:28.726 * I load the "Dashboard" page
+11:32:29.949 * Then I see the "Top Heroes" header
+
+11:32:30.434 * I type "Narco" on the search field
+11:32:30.579 * The search's result contains "Narco"
+
+11:32:31.460 ## Scenario 3: Search Matching Multiples Heroes
+11:32:31.464 * I load the "Dashboard" page
+11:32:32.666 * Then I see the "Top Heroes" header
+
+11:32:33.154 * I type "Na" on the search field
+11:32:33.286 * Then I see "3" heroes on the search's result
+11:32:34.142 * The search's result contains "Narco"
+11:32:34.209 * The search's result contains "Dynama"
+11:32:34.273 * The search's result contains "Tornado"
+
+11:32:34.335 # List of Heroes
+11:32:34.339 ## Scenario 1: Add a new hero
+11:32:34.340 * I load the "Dashboard" page
+11:32:35.460 * Then I see the "Top Heroes" header
+11:32:36.018 * I click on the "Heroes" navigation button
+11:32:36.111 * Then I see the "My Heroes" header
+
+11:32:36.690 * I type "Superman" on the "Hero name" field
+11:32:36.840 * I click on the "Add" button
+11:32:36.904 * Then I see "Superman" on the hero's list
+
+11:32:37.504 ## Scenario 2: Delete a hero
+11:32:37.506 * I load the "Dashboard" page
+11:32:38.715 * Then I see the "Top Heroes" header
+11:32:39.210 * I click on the "Heroes" navigation button
+11:32:39.322 * Then I see the "My Heroes" header
+
+11:32:39.884 * I type "Batman" on the "Hero name" field
+11:32:40.017 * I click on the "Add" button
+11:32:40.079 * I delete "Batman" from the hero's list
+11:32:40.713 * Then I don't see "Batman" on the hero's list
+
+11:32:41.391 Plugin [Html Report] with pid [14425] has exited
+11:32:41.492 Specifications:	2 executed	2 passed	0 failed	0 skipped
+11:32:41.492 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+11:32:41.492 
+Total time taken: 17.384s
+11:32:41.492 Updates are available. Run `gauge update -c` for more info.
+11:33:58.749 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:34:00.042 # Dashboard Heroes Search
+11:34:00.053 ## Scenario 1: Search Matching no Heroes
+11:34:00.063 * I load the "Dashboard" page
+11:34:00.296 Checking updates...
+11:34:03.530 * Then I see the "Top Heroes" header
+
+11:34:03.923 * I type "Superman" on the search field
+11:34:04.071 * Then I see no heroes on the search's result
+
+11:34:04.975 ## Scenario 2: Search Matching one Hero
+11:34:04.978 * I load the "Dashboard" page
+11:34:06.185 * Then I see the "Top Heroes" header
+
+11:34:06.698 * I type "Narco" on the search field
+11:34:06.852 * The search's result contains "Narco"
+
+11:34:07.732 ## Scenario 3: Search Matching Multiples Heroes
+11:34:07.735 * I load the "Dashboard" page
+11:34:08.860 * Then I see the "Top Heroes" header
+
+11:34:09.348 * I type "Na" on the search field
+11:34:09.491 * Then I see "3" heroes on the search's result
+11:34:10.339 * The search's result contains "Narco"
+11:34:10.387 * The search's result contains "Dynama"
+11:34:10.442 * The search's result contains "Tornado"
+
+11:34:10.502 # List of Heroes
+11:34:10.506 ## Scenario 1: Add a new hero
+11:34:10.507 * I load the "Dashboard" page
+11:34:11.615 * Then I see the "Top Heroes" header
+11:34:12.103 * I click on the "Heroes" navigation button
+11:34:12.209 * Then I see the "My Heroes" header
+
+11:34:12.795 * I type "Superman" on the "Hero name" field
+11:34:12.950 * I click on the "Add" button
+11:34:13.012 * Then I see "Superman" on the hero's list
+
+11:34:13.611 ## Scenario 2: Delete a hero
+11:34:13.613 * I load the "Dashboard" page
+11:34:14.724 * Then I see the "Top Heroes" header
+11:34:15.201 * I click on the "Heroes" navigation button
+11:34:15.279 * Then I see the "My Heroes" header
+
+11:34:15.891 * I type "Batman" on the "Hero name" field
+11:34:16.045 * I click on the "Add" button
+11:34:16.106 * I delete "Batman" from the hero's list
+11:34:16.718 * Then I don't see "Batman" on the hero's list
+
+11:34:17.497 Plugin [Html Report] with pid [14769] has exited
+11:34:17.598 Specifications:	2 executed	2 passed	0 failed	0 skipped
+11:34:17.598 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+11:34:17.598 
+Total time taken: 17.28s
+11:34:17.598 Updates are available. Run `gauge update -c` for more info.
+11:34:21.575 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:34:22.981 # Dashboard Heroes Search
+11:34:22.992 ## Scenario 1: Search Matching no Heroes
+11:34:22.999 * I load the "Dashboard" page
+11:34:23.207 Checking updates...
+11:34:30.359 * Then I see the "Top Heroes" header
+
+11:34:30.912 * I type "Superman" on the search field
+11:34:31.044 * Then I see no heroes on the search's result
+
+11:34:32.461 ## Scenario 2: Search Matching one Hero
+11:34:32.463 * I load the "Dashboard" page
+11:34:33.554 * Then I see the "Top Heroes" header
+
+11:34:34.143 * I type "Narco" on the search field
+11:34:34.337 * The search's result contains "Narco"
+
+11:34:35.245 ## Scenario 3: Search Matching Multiples Heroes
+11:34:35.248 * I load the "Dashboard" page
+11:34:36.336 * Then I see the "Top Heroes" header
+
+11:34:36.864 * I type "Na" on the search field
+11:34:36.974 * Then I see "3" heroes on the search's result
+11:34:37.851 * The search's result contains "Narco"
+11:34:37.941 * The search's result contains "Dynama"
+11:34:38.014 * The search's result contains "Tornado"
+
+11:34:38.086 # List of Heroes
+11:34:38.089 ## Scenario 1: Add a new hero
+11:34:38.090 * I load the "Dashboard" page
+11:34:39.286 * Then I see the "Top Heroes" header
+11:34:39.836 * I click on the "Heroes" navigation button
+11:34:39.966 * Then I see the "My Heroes" header
+
+11:34:40.534 * I type "Superman" on the "Hero name" field
+11:34:40.670 * I click on the "Add" button
+11:34:40.763 * Then I see "Superman" on the hero's list
+
+11:34:41.319 ## Scenario 2: Delete a hero
+11:34:41.322 * I load the "Dashboard" page
+11:34:42.500 * Then I see the "Top Heroes" header
+11:34:43.014 * I click on the "Heroes" navigation button
+11:34:43.111 * Then I see the "My Heroes" header
+
+11:34:43.676 * I type "Batman" on the "Hero name" field
+11:34:43.794 * I click on the "Add" button
+11:34:43.884 * I delete "Batman" from the hero's list
+11:34:44.523 * Then I don't see "Batman" on the hero's list
+
+11:34:45.201 Plugin [Html Report] with pid [15035] has exited
+11:34:45.301 Specifications:	2 executed	2 passed	0 failed	0 skipped
+11:34:45.301 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+11:34:45.301 
+Total time taken: 22.142s
+11:34:45.301 Updates are available. Run `gauge update -c` for more info.
+11:39:30.590 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:39:46.233 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:39:46.766 Successfully uninstalled plugin js 2.0.2.
+11:39:51.149 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:40:04.254 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:40:04.741 Successfully uninstalled plugin screenshot 0.0.1.
+11:40:11.468 Gauge Install ID: 405cd862-43e5-4a79-8e17-b2048b966305
+11:40:11.932 Successfully uninstalled plugin html-report 4.0.3.
+12:22:22.974 Gauge Install ID: ed89bebf-5799-4ee7-a708-10fd23429bf9
+12:22:23.440 Gathering metadata for js
+12:22:24.497 Downloading gauge-js-2.0.2.zip
+12:22:29.571 Installing plugin js 2.0.2
+12:22:29.631 Successfully installed plugin 'js'.
+12:22:33.666 Gauge Install ID: ed89bebf-5799-4ee7-a708-10fd23429bf9
+12:22:34.096 Gathering metadata for html-reporter
+12:22:35.445 Failed to download html-reporter-install.json file: Error downloading file: https://downloads.getgauge.io/plugin/html-reporter?l=js&p=js&o=linux&a=amd64.
+404 Not Found
+12:22:35.445 Failed to install plugin 'html-reporter'.
+Reason: Invalid plugin. Could not download html-reporter-install.json file.
+12:31:18.762 Gauge Install ID: ed89bebf-5799-4ee7-a708-10fd23429bf9
+12:31:19.467 Installing required plugins.
+12:31:19.468 Installing plugin 'screenshot'
+12:31:19.468 Gathering metadata for screenshot
+12:31:20.416 Checking updates...
+12:31:20.434 Downloading screenshot-0.0.1-linux.x86_64.zip
+12:31:24.958 Installing plugin screenshot 0.0.1
+12:31:24.962 Successfully installed plugin 'screenshot'.
+12:31:24.962 Installing plugin 'html-report'
+12:31:24.962 Gathering metadata for html-report
+12:31:25.202 Downloading html-report-4.0.3-linux.x86_64.zip
+12:31:29.277 Installing plugin html-report 4.0.3
+12:31:29.293 Successfully installed plugin 'html-report'.
+12:31:29.868 # Dashboard Heroes Search
+12:31:29.877 ## Scenario 1: Search Matching no Heroes
+12:31:29.886 * I load the "Dashboard" page
+12:31:32.967 * Then I see the "Top Heroes" header
+
+12:31:33.508 * I type "Superman" on the search field
+12:31:33.663 * Then I see no heroes on the search's result
+
+12:31:34.550 ## Scenario 2: Search Matching one Hero
+12:31:34.552 * I load the "Dashboard" page
+12:31:35.783 * Then I see the "Top Heroes" header
+
+12:31:36.271 * I type "Narco" on the search field
+12:31:36.417 * The search's result contains "Narco"
+
+12:31:37.312 ## Scenario 3: Search Matching Multiples Heroes
+12:31:37.316 * I load the "Dashboard" page
+12:31:38.533 * Then I see the "Top Heroes" header
+
+12:31:39.030 * I type "Na" on the search field
+12:31:39.163 * Then I see "3" heroes on the search's result
+12:31:40.022 * The search's result contains "Narco"
+12:31:40.082 * The search's result contains "Dynama"
+12:31:40.140 * The search's result contains "Tornado"
+
+12:31:40.200 # List of Heroes
+12:31:40.202 ## Scenario 1: Add a new hero
+12:31:40.204 * I load the "Dashboard" page
+12:31:41.389 * Then I see the "Top Heroes" header
+12:31:41.888 * I click on the "Heroes" navigation button
+12:31:41.981 * Then I see the "My Heroes" header
+
+12:31:42.574 * I type "Superman" on the "Hero name" field
+12:31:42.715 * I click on the "Add" button
+12:31:42.773 * Then I see "Superman" on the hero's list
+
+12:31:43.367 ## Scenario 2: Delete a hero
+12:31:43.369 * I load the "Dashboard" page
+12:31:44.578 * Then I see the "Top Heroes" header
+12:31:45.079 * I click on the "Heroes" navigation button
+12:31:45.187 * Then I see the "My Heroes" header
+
+12:31:45.763 * I type "Batman" on the "Hero name" field
+12:31:45.895 * I click on the "Add" button
+12:31:45.976 * I delete "Batman" from the hero's list
+12:31:46.640 * Then I don't see "Batman" on the hero's list
+
+12:31:47.330 Plugin [Html Report] with pid [17544] has exited
+12:31:47.431 Specifications:	2 executed	2 passed	0 failed	0 skipped
+12:31:47.431 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+12:31:47.431 
+Total time taken: 17.382s
+12:31:47.431 Updates are available. Run `gauge update -c` for more info.
+12:31:51.252 Gauge Install ID: ed89bebf-5799-4ee7-a708-10fd23429bf9
+12:31:52.545 # Dashboard Heroes Search
+12:31:52.555 ## Scenario 1: Search Matching no Heroes
+12:31:52.566 * I load the "Dashboard" page
+12:31:52.735 Checking updates...
+12:31:58.926 * Then I see the "Top Heroes" header
+
+12:31:59.368 * I type "Superman" on the search field
+12:31:59.502 * Then I see no heroes on the search's result
+
+12:32:00.928 ## Scenario 2: Search Matching one Hero
+12:32:00.931 * I load the "Dashboard" page
+12:32:02.269 * Then I see the "Top Heroes" header
+
+12:32:02.578 * I type "Narco" on the search field
+12:32:02.707 * The search's result contains "Narco"
+
+12:32:03.671 ## Scenario 3: Search Matching Multiples Heroes
+12:32:03.674 * I load the "Dashboard" page
+12:32:05.107 * Then I see the "Top Heroes" header
+
+12:32:05.481 * I type "Na" on the search field
+12:32:05.619 * Then I see "3" heroes on the search's result
+12:32:06.485 * The search's result contains "Narco"
+12:32:06.551 * The search's result contains "Dynama"
+12:32:06.611 * The search's result contains "Tornado"
+
+12:32:06.684 # List of Heroes
+12:32:06.686 ## Scenario 1: Add a new hero
+12:32:06.688 * I load the "Dashboard" page
+12:32:08.034 * Then I see the "Top Heroes" header
+12:32:08.457 * I click on the "Heroes" navigation button
+12:32:08.585 * Then I see the "My Heroes" header
+
+12:32:09.194 * I type "Superman" on the "Hero name" field
+12:32:09.347 * I click on the "Add" button
+12:32:09.442 * Then I see "Superman" on the hero's list
+
+12:32:09.989 ## Scenario 2: Delete a hero
+12:32:09.990 * I load the "Dashboard" page
+12:32:11.185 * Then I see the "Top Heroes" header
+12:32:11.712 * I click on the "Heroes" navigation button
+12:32:11.826 * Then I see the "My Heroes" header
+
+12:32:12.407 * I type "Batman" on the "Hero name" field
+12:32:12.527 * I click on the "Add" button
+12:32:12.621 * I delete "Batman" from the hero's list
+12:32:13.259 * Then I don't see "Batman" on the hero's list
+
+12:32:13.903 Plugin [Html Report] with pid [17811] has exited
+12:32:14.003 Specifications:	2 executed	2 passed	0 failed	0 skipped
+12:32:14.004 Scenarios:	5 executed	5 passed	0 failed	0 skipped
+12:32:14.004 
+Total time taken: 21.278s
+12:32:14.004 Updates are available. Run `gauge update -c` for more info.
