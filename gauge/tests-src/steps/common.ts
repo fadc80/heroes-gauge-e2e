@@ -1,6 +1,5 @@
+import * as webdriver from 'selenium-webdriver';
 import * as protractor from 'protractor';
-
-import { ElementFinder } from 'protractor';
 
 import { Gauge, Step } from '../interfaces';
 import { SiteMap } from './../structure/site-map';
@@ -15,7 +14,7 @@ export function commonSteps(gauge: Gauge, step: Step) {
   let siteMap: SiteMap = gauge.siteMap;
 
   step('I load the <page-name> page', (pageName, done) => {
-    browser.get(siteMap.getUrl(pageName)).thenFinally(done);
+    browser.get(siteMap.getUrl(pageName)).then(done).catch(error => done(error));
   });
 
   step('I click on the <button-name> navigation button', (buttonName, done) => {

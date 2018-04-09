@@ -1,6 +1,6 @@
-import { ProtractorBy, ElementFinder, ElementArrayFinder, ElementHelper, ProtractorBrowser } from 'protractor';
+import * as protractor from 'protractor';
+import * as webdriver from 'selenium-webdriver';
 
-import { SiteMap } from '../site-map';
 import { PageObject } from './page-object';
 
 export class DashboardPageObject extends PageObject {
@@ -8,23 +8,23 @@ export class DashboardPageObject extends PageObject {
   path = '/dashboard';
 
   constructor(
-    protected browser: ProtractorBrowser,
+    protected browser: protractor.ProtractorBrowser,
     protected driver: webdriver.WebDriver,
-    protected by: ProtractorBy,
-    protected element: ElementHelper,
+    protected by: protractor.ProtractorBy,
+    protected element: protractor.ElementHelper,
     protected expect: Chai.ExpectStatic) {
       super(browser, driver, by, element, expect);
   }
 
-  public getHeroSearchBox(): ElementFinder {
+  public getHeroSearchBox(): protractor.ElementFinder {
     return this.element.all(this.by.id('search-box')).first();;
   }
 
-  public getHeroSearchResults(): ElementArrayFinder {
+  public getHeroSearchResults(): protractor.ElementArrayFinder {
     return this.element.all(this.by.css('.search-result li'));
   }
 
-  public getHeroSearchResult(hero): ElementArrayFinder {
+  public getHeroSearchResult(hero): protractor.ElementArrayFinder {
     return this.getHeroSearchResults().all(this.by.cssContainingText('a', hero));
   }  
 }

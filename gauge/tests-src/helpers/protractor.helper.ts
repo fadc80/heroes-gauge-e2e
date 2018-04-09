@@ -3,28 +3,15 @@ import * as webdriver from 'selenium-webdriver';
 
 import * as chrome from 'selenium-webdriver/chrome';
 import * as firefox from 'selenium-webdriver/firefox';
-import * as ie from 'selenium-webdriver/ie';
 
-import { ProtractorBrowser } from 'protractor';
-
-let chromeCapabilities = webdriver.Capabilities.chrome();
-let chromeOptions = new chrome.Options();
-
-let firefoxCapabilities = webdriver.Capabilities.firefox();
-let firefoxOptions = new firefox.Options();
-
-let ieCapabilities = webdriver.Capabilities.ie();
-let ieOptions = new ie.Options();
+import { Runner, Config, ProtractorBrowser } from 'protractor';
 
 let seleniumAddress = process.env.seleniumAddress;
 let browser = process.env.browserName;
 
 export class ProtractorHelper {
   driver: webdriver.WebDriver;
-  timeout = 240000; //4 minutos
-  winHandleBefore: any;
   browser: protractor.ProtractorBrowser;
-  protractor: protractor.Ptor;
   by: protractor.ProtractorBy;
 
   constructor(private baseUrl?: string, private properties?: any) {
@@ -37,43 +24,24 @@ export class ProtractorHelper {
 
   private setupDriver() {
 
-    let builder = new webdriver.Builder()
-      .usingServer(seleniumAddress);
+    let config: Config;
+    let runner: Runner;
 
-    if (browser==="Chrome") {
-      builder = builder
-        .withCapabilities(chromeCapabilities)
-        .setChromeOptions(chromeOptions);
+    config = {
+      "capabilities": {
+        "browserName": browser,
+        "seleniumAddress": seleniumAddress
+      },
+      "allScriptsTimeout": 240000 
     }
+    
+    runner = new Runner(config);
 
-    if (browser==="Firefox") {
-      builder = builder
-        .withCapabilities(firefoxCapabilities)
-        .setFirefoxOptions(firefoxOptions);
-    }
-
-    if (browser==="IE") {
-      builder = builder
-        .withCapabilities(ieCapabilities)
-        .setIeOptions(ieOptions);
-    }
-
-    this.driver = builder.build();
-
-    this.driver.manage().timeouts().setScriptTimeout(this.timeout);
-
-    let winHandleBefore;
-
-    this.driver.getWindowHandle().then(function (result) {
-      winHandleBefore = result;
-    });
-
-    this.browser = new ProtractorBrowser(this.driver);
+    this.browser = runner.createBrowser(undefined);
     this.browser.useAllAngular2AppRoots();
 
-    this.protractor = protractor;
+    this.driver = this.browser.driver;
+
     this.by = protractor.ProtractorBrowser.By;
   }
 }
-
-// implementar baseado em https://github.com/AndrewKeig/protractor-cucumber/blob/master/lib/index.js

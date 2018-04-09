@@ -53,11 +53,9 @@ beforeSuite((done) => {
 });
 
 beforeScenario(function () {
-  commonSteps(gauge, step);
 });
 
 afterScenario(function () {
-
 });
 
 afterSuite((done) => {

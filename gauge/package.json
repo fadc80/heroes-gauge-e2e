@@ -1,6 +1,6 @@
 {
   "name": "perdcomp-angular2-gauge",
-  "version": "1.0.6",
+  "version": "1.0.0",
   "license": "MIT",
   "angular-cli": {},
   "scripts": {    
@@ -9,7 +9,7 @@
     "gauge:chrome": "npm run gauge:compile && npm run webdriver:start && gauge run --env=\"chrome\" specs",
     "gauge:firefox": "npm run gauge:compile && npm run webdriver:start && gauge run --env=\"firefox\" specs",
     "webdriver:update": "node_modules/webdriver-manager/bin/./webdriver-manager update",
-    "webdriver:start": "sh ./start-webdriver-manager.sh"
+    "webdriver:start": "sh ./start-webdriver-manager.sh --quiet"
   },
   "private": true,
   "dependencies": {
@@ -17,7 +17,7 @@
   "devDependencies": {
     "@types/chai": "3.4.34",
     "@types/chai-as-promised": "0.0.29",
-    "@types/selenium-webdriver": "2.53.32",
+    "@types/selenium-webdriver": "~2.53.39",
     "@types/node": "6.0.60",
     "@types/shelljs": "0.3.33",
     "chai": "3.5.0",
@@ -25,12 +25,12 @@
     "node-sass": "3.10.0",
     "process-nextick-args": "1.0.7",
     "jasmine-core": "2.6.2",
-    "protractor": "4.0.10",
-    "selenium-webdriver": "2.53.3",
+    "protractor": "5.3.0",
+    "selenium-webdriver": "3.6.0",
+    "webdriver-manager": "^12.0.6",
     "shelljs": "0.7.8",
     "ts-node": "3.2.0",
     "tslint": "5.7.0",
-    "typescript": "2.3.4",
-    "webdriver-manager": "10.2.8"
+    "typescript": "2.3.4"
   }
 }

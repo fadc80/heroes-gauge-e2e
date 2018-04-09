@@ -1,7 +1,9 @@
 import { PageObject } from './page-objects/page-object';
 
 export class SiteMap {
+
   private static _instance = null;
+
   pages: { [nome: string]: PageObject } = {};
 
   public static baseUrl: string = process.env.applicationAddress;
@@ -28,5 +30,4 @@ export class SiteMap {
     }
     return SiteMap._instance;
   }
-
 }

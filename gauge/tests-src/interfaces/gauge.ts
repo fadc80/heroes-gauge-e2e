@@ -1,6 +1,7 @@
-import { ProtractorBy, ProtractorBrowser, ElementHelper } from 'protractor';
+import * as webdriver from 'selenium-webdriver';
 
 import { SiteMap } from './../structure/site-map';
+import { ProtractorBy, ProtractorBrowser, ElementHelper } from 'protractor';
 
 export interface GaugeHooks {
   beforeScenario: (callback: Function, options?: any) => void;

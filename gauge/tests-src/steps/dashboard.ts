@@ -1,6 +1,5 @@
+import * as webdriver from 'selenium-webdriver';
 import * as protractor from 'protractor';
-
-import { ElementFinder } from 'protractor';
 
 import { Gauge, Step } from '../interfaces';
 import { SiteMap } from './../structure/site-map';
