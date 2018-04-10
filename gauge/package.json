@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "angular-cli": {},
-  "scripts": {    
+  "scripts": {
     "gauge:compile": "tsc -p tests-src",
     "gauge:all": "npm run gauge:chrome && npm run gauge:firefox",
     "gauge:chrome": "npm run gauge:compile && npm run webdriver:start && gauge run --env=\"chrome\" specs",
@@ -12,8 +12,7 @@
     "webdriver:start": "sh ./start-webdriver-manager.sh --quiet"
   },
   "private": true,
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/chai": "3.4.34",
     "@types/chai-as-promised": "0.0.29",
