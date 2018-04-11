@@ -31,7 +31,6 @@ gauge install html-reporter
 cd <INSTALL-FOLDER>
 git clone https://github.com/fadc80/heroes-gauge-e2e.git
 ```
-Keep it running...
 
 ### Run the Tour of Heroes
 
@@ -40,6 +39,7 @@ cd <INSTALL-FOLDER>/heroes
 npm install
 npm start
 ```
+Keep it running...
 
 ### Run the Gauge Test Project
 
