@@ -7,7 +7,7 @@ In this repository you're going to find two folders:
 * heroes - Tour of Heroes application
 * gauge - Gauge test project 
 
-Start running the E2E tests provided by the Gauge test project, then visit our [wiki][4] to learn how it works.
+Start running the E2E tests provided by the Gauge test project using the following instructions, then visit our [wiki][4] to learn how it works.
 
 ### Requirements
 
@@ -16,39 +16,38 @@ Verify if you already have installed:
 * [Node.js][5]
 * [Chrome][6] 
 * [Firefox][7]
+* [Gauge][8]
 
-### Install Gauge
-
-1. Download the [latest version][8]
-
-2. Unzip the downloaded file
-
-```bash
-unzip gauge-$VERSION-$OS.$ARCH.zip -d /usr/local/bin
-```
-3. Install plugins
+### Install Gauge Plugins  
 
 ```bash
 gauge install js -v 2.0.2
 gauge install html-reporter
 ```
 
-### Run the Tour of Heroes Application
-
-Execute inside the *heroes* folder:
+### Checkout
 
 ```bash
+cd <your-install-folder>
+git clone https://github.com/fadc80/heroes-gauge-e2e.git
+cd ./heroes-gauge-e2e
+```
+
+### Run the Tour of Heroes Application
+
+```bash
+cd ./heroes
 npm install
 npm start
 ```
-
 Keep it running.
 
 ### Run the Gauge Test Project
 
-Execute inside the *gauge* folder:
+On a new terminal window...
 
 ```bash
+cd ./gauge
 npm install
 npm run webdriver:update
 npm run gauge:all
