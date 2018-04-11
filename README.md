@@ -5,7 +5,7 @@ This project ilustrates how to create E2E tests for [Angular][2] applications us
 In this repository you're going to find two folders:
 
 * heroes - Tour of Heroes application
-* gauge - Gauge test project 
+* gauge - Gauge Test Project 
 
 Start running the E2E tests provided by the Gauge test project using the following instructions, then visit our [wiki][4] to learn how it works.
 
@@ -25,29 +25,31 @@ gauge install js -v 2.0.2
 gauge install html-reporter
 ```
 
-### Checkout
+### Project Checkout
+
+On a new terminal window execute:
 
 ```bash
 cd <your-install-folder>
 git clone https://github.com/fadc80/heroes-gauge-e2e.git
-cd ./heroes-gauge-e2e
 ```
 
-### Run the Tour of Heroes Application
+### Run the Tour of Heroes
+
+On a new terminal window execute: 
 
 ```bash
-cd ./heroes
+cd <your-install-folder>/heroes
 npm install
 npm start
 ```
-Keep it running.
 
 ### Run the Gauge Test Project
 
-On a new terminal window...
+On a new terminal window execute:
 
 ```bash
-cd ./gauge
+cd <your-install-folder>/gauge
 npm install
 npm run webdriver:update
 npm run gauge:all
