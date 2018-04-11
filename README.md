@@ -27,29 +27,24 @@ gauge install html-reporter
 
 ### Project Checkout
 
-On a new terminal window execute:
-
 ```bash
-cd <your-install-folder>
+cd <INSTALL-FOLDER>
 git clone https://github.com/fadc80/heroes-gauge-e2e.git
 ```
+Keep it running...
 
 ### Run the Tour of Heroes
 
-On a new terminal window execute: 
-
 ```bash
-cd <your-install-folder>/heroes
+cd <INSTALL-FOLDER>/heroes
 npm install
 npm start
 ```
 
 ### Run the Gauge Test Project
 
-On a new terminal window execute:
-
 ```bash
-cd <your-install-folder>/gauge
+cd <INSTALL-FOLDER>/gauge
 npm install
 npm run webdriver:update
 npm run gauge:all
