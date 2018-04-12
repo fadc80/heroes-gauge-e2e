@@ -1,1 +1,0 @@
-var index = {"Tags":{"dashboard":["specs/dashboard.html"],"heroes":["specs/heroes.html"],"list":["specs/heroes.html"],"search":["specs/dashboard.html"]},"Specs":{"Dashboard Heroes Search":["specs/dashboard.html"],"List of Heroes":["specs/heroes.html"]}};
