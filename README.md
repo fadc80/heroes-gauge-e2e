@@ -4,7 +4,7 @@ This project ilustrates how to create E2E tests for [Angular][2] applications us
 
 In this repository you're going to find two folders:
 
-* heroes - Tour of Heroes application
+* heroes - Tour of Heroes
 * gauge - Gauge Test Project 
 
 Start running the E2E tests provided by the Gauge test project using the instructions below, then visit our [wiki][4] to learn how it works.
