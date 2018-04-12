@@ -42,7 +42,7 @@ npm start
 ```
 Keep it running...
 
-### Run Gauge Project
+### Run Gauge
 
 ```bash
 cd <INSTALL-FOLDER>/gauge
