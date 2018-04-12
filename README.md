@@ -7,7 +7,7 @@ In this repository you're going to find two folders:
 * heroes - Tour of Heroes application
 * gauge - Gauge Test Project 
 
-Start running the E2E tests provided by the Gauge test project using the following instructions, then visit our [wiki][4] to learn how it works.
+Start running the E2E tests provided by the Gauge test project using the nstructions below, then visit our [wiki][4] to learn how it works.
 
 ### Requirements
 
