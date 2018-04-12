@@ -71,7 +71,7 @@ Total time taken: 21.278s
 
 Actually, this output is produced twice because tests are run through Chrome and Firefox.
 
-### Check Generated Reports
+### Read Generated Reports
 
 Open the *index.html* generated on the following folders:  
 
