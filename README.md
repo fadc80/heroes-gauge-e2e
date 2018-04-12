@@ -76,7 +76,7 @@ Actually, this output is produced twice because tests are run through Chrome and
 Open the *index.html* generated on the following folders:  
 
 [gauge/reports/chrome](http://htmlpreview.github.io/?https://github.com/fadc80/heroes-gauge-e2e/blob/master/gauge/reports/chrome/html-report/index.html)  
-[gauge/reports/firefox](http://htmlpreview.github.io?https://github.com/fadc80/heroes-gauge-e2e//blob/master/gauge/reports/firefox/html-report/index.html)
+[gauge/reports/firefox](http://htmlpreview.github.io/?https://github.com/fadc80/heroes-gauge-e2e//blob/master/gauge/reports/firefox/html-report/index.html)
 
 That's all!
 
