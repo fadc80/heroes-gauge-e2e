@@ -77,11 +77,11 @@ Open `Chrome` and `Firefox` test results.
 
 They are stored on the reports folder:  
 
-**gauge/reports/chrome/html-reporter/index.html**  
-[quick preview](https://fadc80.github.io/heroes-gauge-e2e/reports/chrome/html-report/index.html){:target="_blank"}     
+_gauge/reports/chrome/html-reporter/index.html_  
+[quick preview](https://fadc80.github.io/heroes-gauge-e2e/reports/chrome/html-report/index.html)   
 
-**gauge/reports/firefox/html-reporter/index.html**  
-[quick preview](https://fadc80.github.io/heroes-gauge-e2e/reports/firefox/html-report/index.html){:target="_blank"}  
+_gauge/reports/firefox/html-reporter/index.html_  
+[quick preview](https://fadc80.github.io/heroes-gauge-e2e/reports/firefox/html-report/index.html)  
 
 That's all!
 
