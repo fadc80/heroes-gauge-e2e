@@ -17,7 +17,7 @@ Start running the E2E tests provided by the Gauge Project (see instructions belo
 
 ### Install Gauge
 
-Check [Gauge Get Started][8] for installation steps. 
+Follow [Gauge Get Started][8] instructions to install it. 
 
 Additionally, install `js` (javascript) and `html-reporter` plugins:
 
@@ -42,7 +42,7 @@ npm start
 ```
 Keep it running...
 
-### Run Gauge
+### Run Gauge Project
 
 ```bash
 cd <INSTALL-FOLDER>/gauge
