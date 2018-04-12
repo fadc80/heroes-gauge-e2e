@@ -1,6 +1,6 @@
 # Tour of Heroes Gauge E2E Tests
 
-This project ilustrates how to create E2E tests for [Angular][2] applications using [Gauge][1]. As most Angular developers are familiar with the [Tour of Heroes][3], it was chosen to be the application under test.
+This project ilustrates how to create E2E tests for [Angular][2] applications using [Gauge][1]. As most developers are familiar with the [Tour of Heroes][3], it was chosen to be the application under test.
 
 In this repository you're going to find two folders:
 
@@ -25,7 +25,7 @@ gauge install js -v 2.0.2
 gauge install html-reporter
 ```
 
-### Project Checkout
+### Checkout this repository
 
 ```bash
 cd <INSTALL-FOLDER>
