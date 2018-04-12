@@ -17,7 +17,7 @@ Start running the E2E tests provided by the Gauge Project (see instructions belo
 
 ### Install Gauge
 
-Check [Gauge Get Started][8] page for detailed installation steps. 
+Check [Gauge Get Started][8] for installation steps. 
 
 Additionally, install `js` (javascript) and `html-reporter` plugins:
 
