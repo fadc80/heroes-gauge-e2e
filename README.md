@@ -1,6 +1,6 @@
 # Tour of Heroes Gauge E2E Tests
 
-This project ilustrates how to create E2E tests for [Angular][2] applications using [Gauge][1]. As most developers are familiar with the [Tour of Heroes][3] example, it was chosen to be the application under test.
+This project ilustrates how to create E2E tests for [Angular][1] applications using [Gauge][2]. As most developers are familiar with the [Tour of Heroes][3] example, it was chosen to be the application under test.
 
 In this repository you're going to find two folders:
 
@@ -71,17 +71,22 @@ Total time taken: 21.278s
 
 Actually, this output is produced twice because tests are run through Chrome and Firefox.
 
-### Read Generated Reports
+### Check Generated Reports
 
-Open `Chrome` and `Firefox` reports:  
+Open `Chrome` and `Firefox` test results.
 
-[gauge/reports/chrome/index.html](http://htmlpreview.github.io/?https://github.com/fadc80/heroes-gauge-e2e/blob/master/gauge/reports/chrome/html-report/index.html)  
-[gauge/reports/firefox/index.html](http://htmlpreview.github.io/?https://github.com/fadc80/heroes-gauge-e2e/blob/master/gauge/reports/firefox/html-report/index.html)
+They are stored on the reports folder:  
+
+**gauge/reports/chrome/html-reporter/index.html**  
+[quick preview](https://fadc80.github.io/heroes-gauge-e2e/reports/chrome/html-report/index.html){:target="_blank"}     
+
+**gauge/reports/firefox/html-reporter/index.html**  
+[quick preview](https://fadc80.github.io/heroes-gauge-e2e/reports/firefox/html-report/index.html){:target="_blank"}  
 
 That's all!
 
-[1]:https://gauge.org/index.html
-[2]:https://angular.io/
+[1]:https://angular.io/
+[2]:https://gauge.org/index.html
 [3]:https://angular.io/tutorial#tutorial-tour-of-heroes
 [4]:https://github.com/fadc80/heroes-gauge-e2e/wiki
 [5]:https://nodejs.org/
