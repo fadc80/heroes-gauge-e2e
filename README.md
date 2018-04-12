@@ -51,7 +51,7 @@ npm run webdriver:update
 npm run gauge:all
 ```
 
-The output is going to look like this...
+The output should look like this:
 
 ```bash
 # Dashboard Heroes Search
