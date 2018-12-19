@@ -35,7 +35,7 @@ git clone https://github.com/fadc80/heroes-gauge-e2e.git
 ### Run Tour of Heroes
 
 ```bash
-cd <INSTALL-FOLDER>/heroes
+cd <INSTALL-FOLDER>/heroes-gauge-e2e/heroes
 npm install
 npm start
 ```
@@ -44,7 +44,7 @@ Keep it running...
 ### Run Gauge Project
 
 ```bash
-cd <INSTALL-FOLDER>/gauge
+cd <INSTALL-FOLDER>/heroes-gauge-e2e/gauge
 npm install
 npm run webdriver:update
 npm run gauge:all
