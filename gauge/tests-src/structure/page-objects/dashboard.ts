@@ -3,7 +3,7 @@ import * as webdriver from 'selenium-webdriver';
 
 import { PageObject } from './page-object';
 
-export class DashboardPageObject extends PageObject {
+export class DashboardPageObject implements PageObject {
 
   path = '/dashboard';
 
@@ -13,7 +13,6 @@ export class DashboardPageObject extends PageObject {
     protected by: protractor.ProtractorBy,
     protected element: protractor.ElementHelper,
     protected expect: Chai.ExpectStatic) {
-      super(browser, driver, by, element, expect);
   }
 
   public getHeroSearchBox(): protractor.ElementFinder {
@@ -26,5 +25,5 @@ export class DashboardPageObject extends PageObject {
 
   public getHeroSearchResult(hero): protractor.ElementArrayFinder {
     return this.getHeroSearchResults().all(this.by.cssContainingText('a', hero));
-  }  
+  }
 }

@@ -19,11 +19,10 @@ Start running the E2E tests provided by the Gauge Project (see instructions belo
 
 Follow [Gauge Get Started][8] instructions to install it. 
 
-Additionally, install `js` (javascript) and `html-reporter` plugins:
+Additionally, install `js` plugin:
 
 ```bash
-gauge install js -v 2.0.2
-gauge install html-reporter
+gauge install js
 ```
 
 ### Checkout repository
