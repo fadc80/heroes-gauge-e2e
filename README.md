@@ -23,7 +23,6 @@ Additionally, install `js` plugin:
 
 ```bash
 gauge install js
-gauge install html-reporter
 ```
 
 ### Checkout repository
