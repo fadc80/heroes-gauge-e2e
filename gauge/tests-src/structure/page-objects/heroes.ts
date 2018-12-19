@@ -3,7 +3,7 @@ import * as webdriver from 'selenium-webdriver';
 
 import { PageObject } from './page-object';
 
-export class HeroesPageObject extends PageObject {
+export class HeroesPageObject implements PageObject {
 
   path = '/heroes';
 
@@ -13,7 +13,6 @@ export class HeroesPageObject extends PageObject {
     protected by: protractor.ProtractorBy,
     protected element: protractor.ElementHelper,
     protected expect: Chai.ExpectStatic) {
-      super(browser, driver, by, element, expect);
   }
 
   public getHeroDeleteButton(name: string): protractor.ElementFinder {
