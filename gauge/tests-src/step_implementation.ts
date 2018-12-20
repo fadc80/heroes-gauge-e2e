@@ -10,7 +10,6 @@ import { commonSteps } from './steps/common';
 import { dashboardSteps } from './steps/dashboard';
 import { heroesSteps } from './steps/heroes';
 
-
 declare var gauge: Gauge;
 declare var step: Step;
 declare var beforeSuite: any;
@@ -31,11 +30,30 @@ gauge.protractor = {
 
 let siteMap: SiteMap = SiteMap.instance;
 
-siteMap.pages['Dashboard'] = new DashboardPageObject(gauge.protractor.browser, gauge.protractor.driver, gauge.protractor.by, gauge.protractor.element, expect);
-siteMap.pages['Heroes'] = new HeroesPageObject(gauge.protractor.browser, gauge.protractor.driver, gauge.protractor.by, gauge.protractor.element, expect);
+siteMap.pages['Dashboard'] = new DashboardPageObject(
+  gauge.protractor.browser,
+  gauge.protractor.driver,
+  gauge.protractor.by,
+  gauge.protractor.element,
+  expect);
+
+siteMap.pages['Heroes'] = new HeroesPageObject(
+  gauge.protractor.browser,
+  gauge.protractor.driver,
+  gauge.protractor.by,
+  gauge.protractor.element,
+  expect);
 
 gauge.siteMap = siteMap;
 gauge.expect = expect;
+
+gauge.screenshotFn = async() => {
+  let picture: any;
+  await gauge.protractor.driver.takeScreenshot().then(
+    data => { picture = data.replace(/^data:image\/png;base64,/,'')}
+  ).catch(e => console.log(e));
+  return picture;
+}
 
 /**
  * Importa os steps definidos na pasta steps
