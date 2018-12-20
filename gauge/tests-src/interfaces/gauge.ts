@@ -21,6 +21,7 @@ export interface Gauge {
   };
   hooks: GaugeHooks;
   steps(desc: string, stepImpl: Function);
+  screenshotFn;
 }
 
 export interface Step {
