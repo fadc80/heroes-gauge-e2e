@@ -179,7 +179,7 @@ describe('Tutorial part 6', () => {
       const numHeroes = heroesBefore.length;
 
       element(by.css('input')).sendKeys(newHeroName);
-      element(by.buttonText('add')).click();
+      element(by.buttonText('Add')).click();
 
       let page = getPageElts();
       let heroesAfter = await toHeroArray(page.allHeroes);
