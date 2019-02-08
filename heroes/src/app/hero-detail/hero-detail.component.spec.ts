@@ -1,31 +1,32 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 
-import { DashboardComponent } from './dashboard.component';
-import { HeroSearchComponent } from '../hero-search/hero-search.component';
+import { HeroDetailComponent } from './hero-detail.component';
 import { HeroService } from '../hero.service';
 import { HeroServiceMock } from '../hero.service.mock';
+import { FormsModule } from '@angular/forms';
 
-describe('DashboardComponent', () => {
-  let component: DashboardComponent;
-  let fixture: ComponentFixture<DashboardComponent>;
+describe('HeroDetailComponent', () => {
+  let component: HeroDetailComponent;
+  let fixture: ComponentFixture<HeroDetailComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [ RouterTestingModule ],
-      declarations: [ DashboardComponent, HeroSearchComponent ],
+      imports: [ RouterTestingModule, FormsModule ],
+      declarations: [ HeroDetailComponent ],
       providers: [{ provide: HeroService, useClass: HeroServiceMock }]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DashboardComponent);
+    fixture = TestBed.createComponent(HeroDetailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
 
-  it('should be created', () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });
