@@ -91,4 +91,4 @@ That's all!
 [5]:https://nodejs.org/
 [6]:https://www.google.com/chrome
 [7]:https://www.mozilla.org
-[8]:https://gauge.org/getting-started-guide/we-start/
+[8]:https://docs.gauge.org/getting_started/installing-gauge.html
